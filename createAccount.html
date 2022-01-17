@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+          li {
+            list-style-type: none;
+          }
+        </style>
+    </head>
+    <body>
+
+        <div class=entire-top-bar>
+            <div class="top-bar">
+                <a id="teaneckLogo" href="teaneckShuls.html"><img src="teaneckLogo.jpg" class="normal" alt="Teaneck Logo"></a>
+                <a id="each-first-bar" href="create-new-post.html">Create New Post</a> <!--Figure out what to do with this-->
+                <a id="search-bar">
+                  <a id="the-all-button"> Search </a>
+                  <span class="mainSearchBar">
+                      <input id="actual-bar" type="searchbox" name="text" placeholder="Search..."/>
+                  </span>
+                  <input id="search-button" type="submit" value="Search"/>
+                </a>
+                <a class="right-side-top-bar">
+                  <a id="each-first-bar" href="login.html">Hello, Sign In</a>    
+                  <a id="each-first-bar" href="jewishLink.html">Jewish Link</a>    
+                  <a id="each-first-bar" href="aboutUs.html">About Us</a> <!--Formating has a ways to go-->
+                </a>
+            </div><!--ending of top-bar-->
+            
+            <div class="second-bar">
+              <a id="each-sec-bar" href="teaneckShuls.html">Most Recent</a>  
+              <a id="each-sec-bar" href="rides-to-teaneck.html">Rides To Teaneck</a>
+              <a id="each-sec-bar" href="rides-from-teaneck.html">Rides From Teaneck</a>
+              <a id="each-sec-bar" href="covid-related.html">Covid Related</a>
+              <a id="each-sec-bar" href="for-sale.html">For Sale and Giving Away</a>    
+              <a id="each-sec-bar" href="in-search-of.html">In Search of</a>    
+              <a id="each-sec-bar" href="services.html">Services</a>    
+              <a id="each-sec-bar" href="minyanim.html">Minyanim</a>      
+              <a id="each-sec-bar" href="shuls-related.html">Shuls Related</a>    
+              <a id="each-sec-bar" href="upcoming-teaneck-events.html">Upcoming Teaneck Events</a>      
+            </div><!--ending of second-bar-->
+        </div>
+
+    <h1 id="new-post-header">Create Account</h1>
+    <main class="mainCreateAccount">
+        <div class="outsideCreateAccount">
+            <fieldset class="createAccount">
+                  <legend id="accountDetails">Account details</legend>
+                  <div id="insideCreateAccount">
+                      <form class="createAccount" action="myAccount.html">
+                          <Label>Your name* </Label><br />
+                          <input id="eachDetailBox" type="text" name="name" size="20" maxlength="60" required="required" placeholder="First Last" /></title><br />
+                          <div id="nameFeedback"></div><br />
+
+                          <Label>Email* </Label><br />  
+                            <input id="eachDetailBox" type="email" name="email" size="20" maxlength="30"required="required" placeholder="first.last@gmail.com"/></title><br />
+                      </form><br />    
+                      <li class="createAccount">Password (8 to 15 characters and contains at least one uppercase letter, one number, and one special character)</li>
+                      <form class="createAccount">
+                          <input id="eachDetailBox" type="password" name="password" size="20" maxlength="30" required="required" placeholder="#123@password" /></title><br />
+                      </form><br />
+                      <div id="outsideCreateAccountContinueButton">                      
+                          <a type="submit" name="submit" id="continueButton" value="Continue" href="createAcountPart2.html"/>Continue</a>
+                      </div>
+                  </div>
+            </fieldset>  
+        </div>        
+    </main>
+
+
+
+    <div class="bottom-of-page">
+      <div id="first-half-of-bottom-of-page">
+        <a href="teaneckShuls.html"><img src="teaneckLogo.jpg" alt="Teaneck Logo" width="100" height="100"></a>
+      </div>
+      <div id="sec-half-of-bottom-of-page">
+        <sub>&copy; 2022, GS Productions</sub>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,930 @@
+body {
+  margin: 0px;
+}
+a:link, visited {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  margin: 1.5% 2.5%;
+}
+
+img.normal {
+  width: 5.5%; 
+  height: 5.5%;  
+}
+
+img.small {
+  width: 7.5%; 
+  height: 7.5%;   
+}
+img.medium {
+  width: 25.0%; 
+  height: 25.0%;
+}
+img.expand {
+  width: 50.0%; 
+  height: 50.0%;
+}
+
+img.classic {
+    width: 28%;
+    height: 28%;
+}
+
+.top-bar {;
+  width: 100%;
+  font-size: 15px;
+  background-color: #131A22;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-align: ;
+  padding: 10px 0;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  margin: auto;
+}
+.top-bar a {
+  color: white;
+  text-decoration: none;}
+.top-bar a:hover {
+  color: #FEBD69;
+  text-decoration: none;}
+.right-side-top-bar {
+  position:absolute;
+  TOP:100px;    
+  }
+#teaneckLogo {
+  border: 1px solid #cccccc;
+  border-color: #131A22;
+  padding-left: 0.75%;
+  padding-right: 0.75%;
+  padding-top: 90px;
+  padding-bottom: 5px;
+}
+#teaneckLogo:hover {
+  border: 1px solid #cccccc;
+  border-color:lightblue;
+  padding-left: 0.75%;
+  padding-right: 0.75%;
+  padding-top: 90px;
+  padding-bottom: 5px;
+}
+#each-first-bar {
+  border: 1px solid #cccccc;
+  border-color: #131A22;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#each-first-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainSearchBar input {
+    width: 55%;
+    height: 15%;
+}
+    #search-bar {  
+      border-style: ;
+      border-color: ;
+      padding-bottom: 30px;
+      padding-left: 1.5%;
+      padding-right: ;
+    }
+    #the-all-button {
+      color: white;
+      padding-left: 0.5%;
+      padding-top: 8px;
+      padding-bottom: 10px;
+      background-color: gray;
+      border: 1px solid #cccccc;
+      border-color: gray;
+    }
+    #actual-bar {
+
+      padding-top:  10px;
+      padding-bottom: 10px;
+      border: 1px solid #cccccc;
+    }
+    #search-button {
+      color: black;
+      border-color: lightblue;
+      background-color:lightblue;
+      padding-bottom: 9px;
+      padding-top: 9px;
+      padding-right: 0.5%;
+    }
+
+.second-bar {
+  background-color:#232F3E;
+  color: white !important;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1.25%;
+}
+.second-bar a {
+  font-size: 16px;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+.second-bar a:hover {
+  font-size: 16px;
+  color: lightblue !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+#each-sec-bar {
+  border: 1px solid #cccccc;
+  border-color: #232F3E;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+#each-sec-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+.third-bar {
+  background-color: #37475A;
+  color: white !important;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1.5%;
+}
+.third-bar a {
+  font-size: 18px;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+.third-bar a:hover {
+  font-size: 18px;
+  color: lightblue !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+#each-third-bar {
+  border: 1px solid #cccccc;
+  border-color: #37475A;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#each-third-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.bottom-of-page {
+    text-align: center;
+    position: ;
+    z-index: ;
+}
+  .back-to-top {
+      background-color: #37475A;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .back-to-top a {
+      color: white;
+  }
+  .back-to-top a:hover {
+      color: lightblue;
+  }
+  #first-half-of-bottom-of-page {
+      background-color: #232F3E;
+      padding-top: 50px;
+      padding-bottom: 200px;
+  }
+
+  #sec-half-of-bottom-of-page {
+      font-size: 250%;
+      background-color: #131A22;
+      color: lightblue;
+      padding-top: 50px;
+      padding-bottom: 500px;
+  }
+
+#second-row-header, #first-row-header, #new-post-header{
+    color: rebeccapurple;
+    font-size: 250%;
+}
+.row-of-posts {
+    overflow: auto;
+    height: 100%;
+    margin-top: %;
+    margin-bottom: 0.5%;
+    margin-left: 3.5%;
+}
+  #for-sale-post {
+      float: left;
+      width: 15%;
+      margin-left: 0.25%;
+      margin-right: 0.25%;
+      text-align: center;
+      border: 3px solid rebeccapurple;
+      padding-top: 1.0%;
+      padding-bottom: 1.5%;
+  }
+    #for-sale-post a {
+        color: rebeccapurple;
+    }
+    #for-sale-post:hover {
+        background-color: #C1EAFE;
+    }
+
+    #ride-post {
+        float: left;
+        width: 15%;
+        margin-left: 0.25%;
+        margin-right: 0.25%;
+        text-align: center;
+        border: 3px solid rebeccapurple;
+        padding-top: 1.0%;
+        padding-bottom: 1.5%;
+    }
+    #ride-post a {
+        color: rebeccapurple;
+    }
+    #ride-post:hover {
+        background-color: #C1EAFE;
+    }
+
+    #requestRideButtonSection {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%; 
+    }
+    #requestRideButton {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 1.0%;
+        padding-right: 1.0%;
+        border: 3px solid black;  
+        background-color: skyblue;
+        text-align: center;
+        border-radius: 25px;
+    }
+    #requestRideButton:hover {
+        /*font-weight: 900;*/
+        /*border: 5px solid black;*/
+        border: 3px solid black;    
+        background-color: lightgreen;
+    }
+
+    #driver:hover, #seller:hover {
+        font-weight: 900;
+    }
+    #driver a:link, visited, #seller a:link, visited {
+        color: black;
+    }
+
+/*Bottom of each post on main page*/
+
+    #openPost {
+        border: 1px solid black;
+        background-color: lightblue;
+        padding-top: 5.0%;
+        padding-bottom: 5.0%;
+        padding-left: 30%;
+        padding-right: 30%;
+        border-radius: 25px;
+    }
+
+    #openPost:hover {
+        background-color: lightgreen;
+    }
+
+/*end of section*/
+
+
+
+/*start of login.html*/
+.whole-page {
+  margin-top: 5.0%;
+  padding-right: 35%;
+  padding-left: 35%;
+  font-size: 150%;
+}
+  #logoForSignInSection {
+    text-align: center;
+    margin-bottom: 2.5%;
+  }
+  #logoForSignIn{
+    margin-top: 5.0%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 150%;
+  }
+  #sign-in-section {
+    border: 3px solid rebeccapurple;
+    font-size: 75%;
+    padding-top: 5.0%;
+    padding-bottom: 2.5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-family: arial, sans-serif;
+  }
+      .whole-page h1 {
+        margin: 0.0 0.0;
+      }
+      a:link, visited {
+        color: black;
+        text-decoration: none;
+      }
+      #EmailOrPhoneNumber {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      #continue-button-section {
+        font-size: 100%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: center; 
+      }
+      #continue-button {
+        font-size: 100%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 20%;
+        padding-right: 20%;
+        border: 1px solid black;  
+        background-color: lightgreen;
+      }
+
+      #new-to-teaneck-shuls {
+        text-align: center;
+      }
+      #create-account-button {
+        padding-top: 1.25%;
+        padding-bottom: 1.25%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        border: 1px solid black;  
+        background-color: lightgreen;
+        text-align: center;
+      }
+          #create-account-button a:link, visited {
+              color: black;
+              text-decoration: none;}              
+          }        
+/*End of login.html*/
+
+
+/*start of createAccount.html and new-for-sale.html*/
+.mainCreateAccount {
+    margin-bottom: 5.0%;
+    margin-left: 5.0%;
+}
+    .outsideCreateAccount {
+        margin-bottom: 5.0%;
+        margin-left: 5.0%;
+    }
+    #insideCreateAccount {
+        padding-bottom: 5.0%;
+        margin-bottom: 2.5%;
+    }
+    #accountDetails {
+        font-size: 150%;
+    }
+
+    fieldset {
+        background-color: lightgray;
+    }
+
+    .createAccount {
+        font-size: 125%;
+        margin-right: 30%;
+
+    }
+    #continueButton {
+        border: 1px solid black;
+        background-color: lightblue;
+        margin-left: 2.5%;
+        padding-top: 1.0%;
+        padding-bottom: 1.0%;
+        padding-left: 5.0%;
+        padding-right: 5.0%;
+        color: black;
+        border-radius: 25px;
+    }
+    #continueButton:hover {
+        background-color: lightgreen;
+    }
+/*End of createAccount.html*/
+
+.confirmYourAccountPage {
+    margin-bottom: 20.0%;
+}
+  
+    #insideConfirmAccount {
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    margin-left: 2.5%;
+    }
+
+
+/*Start of Given Ride*/
+.topHalfOfRidePost {
+    padding-top: 1.0%;
+    padding-bottom: 1.0%;
+    padding-left: 1.0%;
+    padding-right: 1.0%;
+    background-color: skyblue;
+}
+.bottomHalfOfRidePost {
+    border-top: 3px solid rebeccapurple;
+    background-color: #C1EAFE;
+    padding-bottom: 1.0%;
+    padding-left: 1.0%;
+    padding-right: 1.0%;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 1.0%;
+  padding-bottom: 2.5%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 12.5%;
+  color: black;
+  background-color: ;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+    #requestNumberOfSeatsSection {
+        margin-top: 1.0%;
+    }
+    #seperatingLine {
+        color: rebeccapurple;
+        font-size: 150%;
+    }
+
+    #personalizedMessage {
+        font-size: 125%;
+        background-color: lightblue;
+        border color: black;
+        border-width: 3px;
+    }
+    #perosnalizedMessageSection {
+        padding-top: 2.5%;
+    }
+
+/*End of Given Ride*/
+
+
+
+/*Start of givenPost.html and newRideConfirmation.html*/
+    .given-post {
+        font-size: 150%;
+        border: 5px solid rebeccapurple;
+        width: 80%;
+        margin: 2.5%;
+        margin-left: 8.5%;
+        margin-right: 11.5%;
+        text-align: center;
+
+    }
+    /*I don't know what I intended to do with this
+        .given-post a {
+            color: rebeccapurple;
+        }
+    */
+    #insidePost {
+        background-color: skyblue;
+        padding-top: 2.5%;
+    }
+    #insidePost a { 
+        color: black;
+        text-decoration: none
+    }
+    #reserveButtonSection {
+      padding-top: 2.5%;
+      padding-bottom: 2.5%; 
+    }
+    #reserveButton {
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
+      padding-left: 3.5%;
+      padding-right: 3.5%;
+      border: 3px solid rebeccapurple;  
+      background-color: lightblue;
+      text-align: center;
+      border-radius: 25px;
+    }
+    #reserveButton:hover {
+        /*font-weight: 900;*/
+        border: 5px solid rebeccapurple; 
+        background-color: lightgreen; 
+    }
+/*End of givenPost.html and newRideConfirmation.html*/
+
+
+
+#about-us{
+  margin-left: 5.0%;
+  margin-right: 5.0%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-family: ;
+  font-size: 150%;
+  border: 3px solid rebeccapurple;
+  padding-top: 2.0%;
+  padding-bottom: 2.0%;
+}
+  #about-us h2 {
+    color: rebeccapurple;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  #about-us p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #intros{
+    content: ; 
+  }
+  #intro-content{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+
+#sign-in-to-create-new-post {
+  margin-left: 4.0%;
+  margin-bottom: 2.5%;
+  font-size: 150%;
+  color: lightgray;
+}
+  #sign-in-to-create-new-post a {
+    color: rebeccapurple;
+  }
+
+#temporary-new-post {
+  margin-top: 1.0%;
+  margin-left: 3.0%;
+  margin-bottom: ;
+  font-size: 150%;
+}
+  #temporary-new-post:link, visited {
+    font-size: 150%;
+    color: white !important;
+  }
+
+#mainNewPost {
+  margin-bottom: 25%;
+  margin-left: 4.0%;
+}
+    #typeOptions{
+      font-size: 150%; 
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+      padding-left: 0.5%;
+    }
+    #eachOption {
+    }
+
+/*Start of ride-details.html*/
+#mainRideDetails {
+  margin-bottom: 5.0%;
+  margin-left: 4.0%;
+  margin-right: 30%;
+}
+    #insideMainRideDetails, #insideCreateAccount {
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      padding-left: 2.5%;
+      margin-left: 2.5%;
+    }
+    #eachDetail, .chooseMultipleOptions {
+        font-size: 200%;
+    }
+    #eachDetailBox {
+      font-size: 100%;
+      margin-top: 0.5%;
+      margin-bottom: 2.0%;
+      padding-top: 0.5%;
+      padding-bottom: 0.5;
+    }
+
+    #continueButtonForRideDetails {
+        border: 1px solid black;
+        background-color: lightblue;
+        margin-left: 2.5%;
+        padding-top: 1.0%;
+        padding-bottom: 1.0%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        color: black;  
+        border-radius: 25px;      
+    }
+    #continueButtonForRideDetails:hover {
+        background-color: lightgreen;
+    }    
+    #defaultOption {
+        color: gray !important;
+    }
+    .options {
+        padding-top: 1.0%;
+    }
+    #headerForOptions {
+        font-size: 200%;
+        padding-bottom: 1.0%;
+    }
+
+#outsideRideDetailsContinueButton, #outsideCreateAccountContinueButton{
+    margin-top: 2.0%;
+    margin-bottom: 1.0%;
+}
+#rideDetailsContinueButton {
+    font-size: 200%;
+}
+
+
+#requestRideButton, #message-button {
+    padding-top: 1.0%;
+    padding-bottom: 1.0%;
+    padding-left: 1.0%;
+    padding-right: 1.0%;
+    border: 3px solid black; 
+    background-color: lightblue; 
+    text-align: center;
+    border-radius: 25px;
+}
+#requestRideButton:hover, #message-button:hover {
+    /*font-weight: 900;*/
+    /*border: 5px solid rebeccapurple;*/ 
+    border: 3px solid black;  
+    background-color: lightgreen;
+}
+
+
+
+  #postButtonSection {
+      padding-top: 2.5%;
+      padding-bottom: 3.0%; 
+  }
+  #postButton {
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
+      padding-left: 1.5%;
+      padding-right: 1.5%;
+      border: 2px solid rebeccapurple;  
+      background-color: lightgreen;
+      color: rebeccapurple;
+      text-align: center;
+      border-radius: 25px;
+  }
+  #postButton:hover {
+      /*font-weight: 900;*/
+      border: 5px solid rebeccapurple;  
+  }
+  #editPostButtonSection {
+      padding-top: 3.0%;
+      padding-bottom: 5.0%; 
+  }
+  #editPostButton {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 122px;
+    padding-right: 122px;
+    border: 1px solid black;  
+    background: indianred;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+  }
+  
+/*Start of confirmYourForSalePost.html*/
+    #postButtonSectionForSale {
+        padding-top: 2.5%;
+        padding-bottom: 3.0%; 
+    }
+    #postButtonForSale {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        border: 2px solid rebeccapurple;  
+        background-color: lightgreen;
+        color: rebeccapurple;
+        text-align: center;   
+        border-radius: 25px; 
+    }
+    #postButtonForSale:hover {
+        font-weight: 900;
+        border: 5px solid rebeccapurple;  
+    }
+    #editPostButtonSectionForSale {
+        padding-top: 3.0%;
+        padding-bottom: 5.0%; 
+    }
+    #editPostButtonForSale {
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
+      padding-left: 12.5%;
+      padding-right: 12.5%;
+      border: 1px solid black;  
+      background: indianred;
+      color: black;
+      text-align: center;
+      border-radius: 25px;
+    }
+/*End of confirmYourForSalePost.html*/
+
+/*Idk what this is for - if doesn't make a noticable difference in next 3 horus, delete it
+#request-button-section {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%; 
+
+}
+#request-button {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 122px;
+    padding-right: 122px;
+    border: 2px solid rebeccapurple;  
+    background: lightgreen;
+    text-align: center;
+    border-radius: 25px;
+}*/
+
+
+/* -- quantity box -- */
+    .quantity {
+     display: inline-block; }
+
+    .quantity .input-text.qty {
+     width: 35px;
+     height: 39px;
+     padding: 0 5px;
+     text-align: center;
+     background-color: transparent;
+     border: 1px solid black;
+    }
+
+    .quantity.buttons_added {
+     text-align: left;
+     position: relative;
+     white-space: nowrap;
+     vertical-align: top; }
+
+    .quantity.buttons_added input {
+     display: inline-block;
+     margin: 0;
+     vertical-align: top;
+     box-shadow: none;
+    }
+
+    .quantity.buttons_added .minus,
+    .quantity.buttons_added .plus {
+     padding: 7px 10px 8px;
+     height: 41px;
+     background-color: skyblue;
+     border: 1px solid black;
+     cursor:pointer;}
+
+    .quantity.buttons_added .minus {
+     border-right: 0; }
+
+    .quantity.buttons_added .plus {
+     border-left: 0; }
+
+    .quantity.buttons_added .minus:hover,
+    .quantity.buttons_added .plus:hover, .quantity:hover  {
+     background-color: lightgreen; }
+
+    .quantity input::-webkit-outer-spin-button,
+    .quantity input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     margin: 0; }
+     
+     .quantity.buttons_added .minus:focus,
+    .quantity.buttons_added .plus:focus {
+     outline: none; }
+/*end of quantity box*/ 
+
+
+#name-email-password-box {
+    size: 30;
+}
+
+
+
+
+/*Start of new-for-sale.html*/
+    .topHalfOfProfile {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 1.0%;
+        padding-right: 1.0%;
+        background-color: skyblue;
+    }
+    .bottomHalfOfProfile {
+        border-top: 3px solid rebeccapurple;
+        background-color: #C1EAFE;
+        padding-bottom: 2.5%;
+        padding-left: 1.0%;
+        padding-right: 1.0%;
+    }
+    #commentBox {
+        font-size: 125%;
+        background-color: lightblue;
+        border color: black;
+        border-width: 3px;
+        padding-bottom: 1.5%;
+    }
+    #commentButtonSection {
+      padding-top: 5.0%;
+      padding-bottom: 5.0%; 
+    }
+    #commentButton {
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
+      padding-left: 3.5%;
+      padding-right: 3.5%;
+      border: 3px solid rebeccapurple;  
+      background-color: lightblue;
+      text-align: center;
+      border-radius: 25px;
+    }
+    #commentButton:hover {
+        /*font-weight: 900;*/
+        border: 3px solid black;
+        background-color: lightgreen;  
+    }
+/*End of given profile*/
+
+
+
+
+

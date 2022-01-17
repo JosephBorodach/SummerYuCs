@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>itemForSale</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+
+        </style>
+    </head>
+    <body>
+        <div class=entire-top-bar>
+            <div class="top-bar">
+                <a id="teaneckLogo" href="teaneckShuls.html"><img src="teaneckLogo.jpg" class="normal" alt="Teaneck Logo"></a>
+                <a id="each-first-bar" href="create-new-post.html">Create New Post</a> <!--Figure out what to do with this-->
+                <a id="search-bar">
+                  <a id="the-all-button"> Search </a>
+                  <span class="mainSearchBar">
+                      <input id="actual-bar" type="searchbox" name="text" placeholder="Search..."/>
+                  </span>
+                  <input id="search-button" type="submit" value="Search"/>
+                </a>
+                <a class="right-side-top-bar">
+                  <a id="each-first-bar" href="login.html">Hello, Sign In</a>    
+                  <a id="each-first-bar" href="jewishLink.html">Jewish Link</a>    
+                  <a id="each-first-bar" href="aboutUs.html">About Us</a> <!--Formating has a ways to go-->
+                </a>
+            </div><!--ending of top-bar-->
+            
+            <div class="second-bar">
+              <a id="each-sec-bar" href="teaneckShuls.html">Most Recent</a>  
+              <a id="each-sec-bar" href="rides-to-teaneck.html">Rides To Teaneck</a>
+              <a id="each-sec-bar" href="rides-from-teaneck.html">Rides From Teaneck</a>
+              <a id="each-sec-bar" href="covid-related.html">Covid Related</a>
+              <a id="each-sec-bar" href="for-sale.html">For Sale and Giving Away</a>    
+              <a id="each-sec-bar" href="in-search-of.html">In Search of</a>    
+              <a id="each-sec-bar" href="services.html">Services</a>    
+              <a id="each-sec-bar" href="minyanim.html">Minyanim</a>      
+              <a id="each-sec-bar" href="shuls-related.html">Shuls Related</a>    
+              <a id="each-sec-bar" href="upcoming-teaneck-events.html">Upcoming Teaneck Events</a>      
+            </div><!--ending of second-bar-->
+        </div>
+        <div class="given-post">
+            <div class="topHalfOfRidePost"><br />          
+                <img src="iphone.jpg" class="small" alt="Teaneck Logo">
+                <h1>Iphone for sale</h1>
+                <p>Price: 2,000$</p>
+                <a id="seller" href="josephBorodach.html">See seller: Joseph Borodach</a>
+                <p>Location: Teaneck</p>
+                <p>Posted At: 8:25pm on Tuesday, January 8th, </p>
+                <!-- The grid: four columns -->
+                <div class="row">
+                  <div class="column">
+                    <img src="iphoneFive.jpg" class="medium" alt="" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="iphoneTwo.jpg" class="medium" alt="" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="iphoneThree.jpg" class="medium" alt="" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="iphoneFour.jpg" class="medium" alt="" onclick="myFunction(this);">
+                  </div>
+                </div>
+                <!-- The expanding image container -->
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                    <!-- Expanded image -->
+                    <img id="expandedImg" class="expand">
+
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
+            </div>
+            <div class="bottomHalfOfRidePost"><br />
+                <span id="requestNumberOfSeatsSection">Notify seller of your interest and placek item on hold</span><br />
+                <div id="perosnalizedMessageSection"> 
+                    <textarea id="personalizedMessage" name="personalizedMessage" cols="25" rows="4" placeholder="Write a personalized message (if the item could be dropped off, alternative price...)"></textarea><br >
+                </div>
+                <div id="reserveButtonSection"><a id="reserveButton" href="login.html">Reserve item</a></div>
+            </div>
+        </div>
+
+      <div class="bottom-of-page">
+          <div id="first-half-of-bottom-of-page">
+            <a href="teaneckShuls.html"><img src="teaneckLogo.jpg" alt="Teaneck Logo" width="100" height="100"></a></div>
+          <div id="sec-half-of-bottom-of-page">
+            <sub>&copy; 2022, GS Productions</sub>
+          </div>
+      </div>
+      
+      <script type="text/javascript">
+          function myFunction(imgs) {
+            // Get the expanded image
+            var expandImg = document.getElementById("expandedImg");
+            // Get the image text
+            var imgText = document.getElementById("imgtext");
+            // Use the same src in the expanded image as the image being clicked on from the grid
+            expandImg.src = imgs.src;
+            // Use the value of the alt attribute of the clickable image as text inside the expanded image
+            imgText.innerHTML = imgs.alt;
+            // Show the container element (hidden with CSS)
+            expandImg.parentElement.style.display = "block";
+          }
+      </script>
+
+    </body>
+</html>
