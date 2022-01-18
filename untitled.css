@@ -1,0 +1,225 @@
+.top-bar {;
+  font-size: 15px;
+  background-color: #131A22;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-align: ;
+  padding: 10px 0;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  margin: auto;
+}
+.top-bar a {
+  color: white;
+  text-decoration: none;}
+.top-bar a:hover {
+  color: #FEBD69;
+  text-decoration: none;}
+.right-side-top-bar {
+  position:absolute;
+  TOP:100px;    
+  }
+#teaneckLogo {
+  border: 1px solid #cccccc;
+  border-color: #131A22;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 90px;
+  padding-bottom: 5px;
+}
+#teaneckLogo:hover {
+  border: 1px solid #cccccc;
+  border-color:lightblue;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 90px;
+  padding-bottom: 5px;
+}
+#each-first-bar {
+  border: 1px solid #cccccc;
+  border-color: #131A22;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#each-first-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#search-bar {  
+  border-style: ;
+  border-color: ;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: ;
+}
+#the-all-button {
+  color: white;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  background-color: gray;
+  border: 1px solid #cccccc;
+  border-color: gray;
+}
+#actual-bar {
+  padding-top:  10px;
+  padding-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+#search-button {
+  color: black;
+  border-color: lightblue;
+  background-color:lightblue;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-right: 10px;
+}
+
+.second-bar {
+  background-color:#232F3E;
+  color: white !important;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.second-bar a {
+  font-size: 16px;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+.second-bar a:hover {
+  font-size: 16px;
+  color: lightblue !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+#each-sec-bar {
+  border: 1px solid #cccccc;
+  border-color: #232F3E;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#each-sec-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.third-bar {
+  background-color: #37475A;
+  color: white !important;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.third-bar a {
+  font-size: 18px;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+.third-bar a:hover {
+  font-size: 18px;
+  color: lightblue !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;}
+#each-third-bar {
+  border: 1px solid #cccccc;
+  border-color: #37475A;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#each-third-bar:hover {
+  color: lightblue;  
+  border: 1px solid #cccccc;
+  border-color: lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+a:link, visited {
+  color: black;
+  text-decoration: none;}
+
+.bottom-of-page {
+  text-align: center;
+}
+
+.back-to-top {
+  background-color: #37475A;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.back-to-top a {
+  color: white;
+}
+.back-to-top a:hover {
+  color: #FEBD69;
+}
+
+#first-half-of-bottom-of-page {
+  background-color: #232F3E;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+#sec-half-of-bottom-of-page {
+  background-color: #131A22;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+#post-per-line {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#outside-each-post {
+  border: 1px solid black;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  text-align: ;
+}
+#inside-each-post {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

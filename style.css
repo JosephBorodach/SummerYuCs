@@ -250,7 +250,8 @@ img.classic {
       text-align: center;
       border: 3px solid rebeccapurple;
       padding-top: 1.0%;
-      padding-bottom: 1.5%;
+      padding-bottom: 0.5%;
+      border-radius: 25px;
   }
     #for-sale-post a {
         color: rebeccapurple;
@@ -267,7 +268,8 @@ img.classic {
         text-align: center;
         border: 3px solid rebeccapurple;
         padding-top: 1.0%;
-        padding-bottom: 1.5%;
+        padding-bottom: 0.5%;
+        border-radius: 25px;
     }
     #ride-post a {
         color: rebeccapurple;
