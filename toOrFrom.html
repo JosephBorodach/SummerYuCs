@@ -44,19 +44,36 @@
     </div><!--ending of second-bar-->
   </div>
 
-    <div class=outsideWholeRidesPage>
-        <div class="wholeRidesPage">
-            <h1 id="ridesHeader">Save Money, Gain Time, and Help Others</h1>
-            <div class="toOrFrom">
-                    <div id="insideToOrFrom">
-                        <a id="ridesTo" href="rides-to-teaneck.html">To Teaneck</a>
-                    </div>
-                    OR
-                    <div id="insideToOrFrom">                
-                        <a id="ridesFrom" href="rides-from-teaneck.html">From Teaneck</a>  
-                    </div>
+    <h1 id="new-post-header">Save Money, Gain Time, and Help Others</h1>
+            <div class=outsideWholeRidesPage>
+                <div class="wholeRidesPage">
+                    <div id="addresses">
+                        <div id="eachAddressSection">                          
+                            <Label id="eachAddress">Address I am heading to:*<br />
+                              <input id="detailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
+                            </Label>
+                        </div>
+                        <div id="eachAddressSection">
+                            <Label id="eachAddress">Address I am leaving from:*<br />
+                              <input id="secondDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
+                            </Label>
+                        </div>
+                        <div id="outsideRideDetailsContinueButton">
+                            <span id="outsideContinueButton">
+                                <button id="continueButtonForRideDetails" onClick="window.open('rideDetailsPartOne.html', '_self');"/>Continue</button>
+                            </span>
+                        </div><br />
+                        OR<br> 
+                        <div id="outsideRideDetailsContinueButton">
+                            <span id="outsideContinueButton">
+                                <button id="continueButtonForRideDetails" onClick="window.open('rideDetailsPartOne.html', '_self');"/>Check Out Recent Ride Posts</button>
+                            </span>
+                        </div><br />               
+                    </div><br>
+                </div>        
             </div>
-        </div>        
+        <div class="toOrFrom">
+            <div id="insideToOrFrom">
     </div>
 
 
