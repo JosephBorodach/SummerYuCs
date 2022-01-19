@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Create Account</title>
-	    <link rel="stylesheet" href="style.css">
-
-	</head>
-	<body>
-
+    <head>
+        <title>Create Account</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
         <div class=entire-top-bar>
             <div class="top-bar">
@@ -28,8 +26,7 @@
             
             <div class="second-bar">
               <a id="each-sec-bar" href="teaneckShuls.html">Most Recent</a>  
-              <a id="each-sec-bar" href="rides-to-teaneck.html">Rides To Teaneck</a>
-              <a id="each-sec-bar" href="rides-from-teaneck.html">Rides From Teaneck</a>
+              <a id="each-sec-bar" href="toOrFrom.html">Rides</a>
               <a id="each-sec-bar" href="covid-related.html">Covid Related</a>
               <a id="each-sec-bar" href="for-sale.html">For Sale and Giving Away</a>    
               <a id="each-sec-bar" href="in-search-of.html">In Search of</a>    
@@ -40,17 +37,14 @@
             </div><!--ending of second-bar-->
         </div>
 
-
-   	<div class="confirmYourAccountPage">
-	    <h1 id="new-post-header">Confirm your account</h1>
-	    <main class="mainCreateAccount">
-	        <div class="outsideCreateAccount">
-	            <fieldset class="createAccount">
-	                  <legend id="accountDetails">Account details</legend>
-	                  <div id="insideConfirmAccount">
-						<form action="http://www.example.com/profile.php">
-							<p>What Shul(s) are you a member of?</p>
-							<select name="Shul">
+        <div class=outsideWholeRidesPage>
+            <div class="wholeRidesPage">
+                <h1 id="new-post-header">Create Account</h1>
+                <div id="addresses">
+                    <div id="eachAddressSection">  
+						<form id="eachAddress" action="http://www.example.com/profile.php">
+							<span>What Shul(s) are you a member of?</span>
+							<select id="shulOptions" name="Shul">
 								<option value="selectYourShul">Select Your Shul(s)</option>
 								<option value="ahavatShalom">Ahavat Shalom</option>
 								<option value="arzeiDarom">Arzei Darom</option>
@@ -71,17 +65,16 @@
 								<option value="youngIsraelOfTeaneck">Young Israel of Teaneck</option>
 								<option value="zichronMordechai">Zichron Mordechia</option>
 							</select>
-						</form><br />					
-				      	<div id="outsideCreateAccountContinueButton">                      
-					       	<span id="outsideContinueButton">
-					            <a type="submit" name="submit" id="continueButton" value="Continue" href="teaneckShuls.html"/>Create your account</a>
-					        </span><br />
-					    </div><br />
-	                  </div>
-	            </fieldset>  
-	        </div>        
-	    </main>
-	</div>
+						</form><br />
+                    </div><br><br><br><br><br><br><br><br>
+                    <div id="outsideRideDetailsContinueButton">
+                        <span id="outsideContinueButton">
+                            <button id="continueButtonForRideDetails" onClick="window.open('teaneckShuls.html', '_self');"/>Continue</button>
+                        </span>
+                    </div><br />
+                </div><br>
+            </div>        
+        </div>
 
     <div class="bottom-of-page">
       <div id="first-half-of-bottom-of-page">
@@ -92,6 +85,21 @@
       </div>
     </div>
 
+    <script>
+        // Get the input field
+        var input = document.getElementById("secondDetailBox");
+
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+          // Number 13 is the "Enter" key on the keyboard
+          if (event.keyCode === 13) {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("continueButtonForRideDetails").click();
+          }
+        });        
+    </script>
 
   </body>
-</html>
+</html>                                  

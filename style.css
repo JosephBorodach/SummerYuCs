@@ -612,6 +612,9 @@ img.classic {
         /*font-weight: 900;*/
         background-color: lightgreen; 
     }
+    #shulOptions {
+        font-size: 100%;
+    }
 /*End of givenPost.html and newRideConfirmation.html*/
 
 
