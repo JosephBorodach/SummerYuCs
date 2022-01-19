@@ -10,6 +10,9 @@
             border: 1px solid black;
             padding-bottom: .50%;
         }
+        body {
+            background-color: lightgray;
+        }
     </style>
   </head>
   <body>
@@ -47,56 +50,79 @@
           </div><!--ending of second-bar-->
       </div>
 
-
-      <h1 id="new-post-header">Create New Ride</h1>
-      <div id="mainRideDetails">
-          <fieldset>
-              <legend id="eachDetail">Ride Details</legend>
-              <div id="insideMainRideDetails">
-                  <form action="myAccount.html">
-                      <Label id="eachDetail">Time of departure (AM or PM):*<br />
-                        <input id="eachDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="1:15pm"/></title><br />
-                      </Label>
-                  </form>    
-                  <form action="myAccount.html">
-                      <Label id="eachDetail">Number of available seats:*<br />
-                          <span id="quantityButtonSection">  
-                              <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
-                              <span class="quantity buttons_added">
-                                  <input type="button" value="-" class="minus">
-                                  <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
-                                  <input type="button" value="+" class="plus">
-                              </span><br />
-                          </span>
-                      </Label><br />
-                  </form>    
-                  <form action="myAccount.html">
-                      <Label id="eachDetail">Address that you are leaving from:*<br />
-                        <input id="eachDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></title><br />
-                      </Label>
-                  </form>    
-                  <form action="myAccount.html">
-                      <Label id="eachDetail">Driver's name:*<br />
-                        <input id="eachDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="Example Name" /></title><br />
-                      </Label>
-                  </form> 
-                  <form class="options" action="http://www.example.com/profile.php">
-                      <span id="headerForOptions">Requests of and notes for potential passengers</span><br>
-                      <select class="chooseMultipleOptions" name="Shul">
-                          <option id="defaultOption" value="selectYourShul">Requests and notes</option>
-                          <option value="contributeHalfOfGasMoney">Contribute half of gas money</option>
-                          <option value="flexibleWithTiming">Flexible with exact departure time</option>
-                          <option value="ableToPickUp">Able to pick up</option>
-                      </select>
-                  </form><br />                               
-                  <div id="outsideRideDetailsContinueButton">
-                      <span id="outsideContinueButton">
-                          <a type="submit" name="submit" id="continueButtonForRideDetails" value="Continue" href="newRideConfirmation.html"/><b>Continue to Save Others Time and Money</b></a>
-                      </span>
-                  </div><br />
-              </div>                        
-          </fieldset>
-      </div>
+    <span class=outsideWholeRidesPage>
+        <div class="wholeRideDetailsPage">
+            <h1 id="new-post-header">New Ride - Save Money, Gain Time,<br>and Help Others!</h1>
+            <div id="mainRideDetails">
+                <form action="myAccount.html">
+                    <div id="insideMainRideDetails">
+                        <form class="options" action="http://www.example.com/profile.php">
+                            <div id="rowOfQuestions">
+                                <span id="eachDetailSection">                          
+                                    <span id="eachDetail" action="http://www.example.com/profile.php">
+                                        <span>Passangers must contribute half<br> of gas money and any tolls</span>
+                                            <div id="yesOrNo">
+                                                <input type="radio" name="genre" value="yes" checked="checked" /> Yes
+                                                <input type="radio" name="genre" value="no" /> No
+                                            </div>
+                                    </span>
+                                </span>
+                                <span id="eachDetailSection">
+                                    <span id="eachDetail" action="http://www.example.com/profile.php">
+                                        <span>Need to leave exactly on time</span>
+                                            <div id="yesOrNo">
+                                                <input type="radio" name="genre" value="yes" checked="checked" /> Yes
+                                                <input type="radio" name="genre" value="no" /> No
+                                            </div>
+                                    </span><br>
+                                </span>
+                            </div>
+                            <div id="rowOfQuestions">
+                                <span id="eachDetailSection">
+                                    <span id="eachDetail" action="http://www.example.com/profile.php">
+                                        <span>NOT able to pick up passangers</span>
+                                            <div id="yesOrNo">
+                                                <input type="radio" name="genre" value="yes" checked="checked" /> Yes
+                                                <input type="radio" name="genre" value="no" /> No
+                                            </div>
+                                    </span><br />
+                                </span>
+                        </form>
+                                <span id="eachDetailSection">  
+                                    <Label id="eachDetail">Number of available seats:*<br />
+                                        <span id="quantityButtonSection">  
+                                            <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+                                            <span class="quantity buttons_added">
+                                                <input type="button" value="-" class="minus">
+                                                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                                <input type="button" value="+" class="plus">
+                                            </span><br />
+                                        </span>
+                                    </Label><br />
+                                </span>
+                        </div>
+                        <div id="rowOfQuestions">
+                            <span id="eachDetailSection">                          
+                                <Label id="eachDetail">Time of departure (AM or PM):*<br />
+                                  <input id="eachDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="1:15pm"/></title>
+                                </Label>
+                            </span>
+                            <span id="eachDetailSection">
+                                <Label id="eachDetail">Driver's name:*<br />
+                                  <input id="eachDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="Example Name" /></title>
+                                </Label>
+                            </span>
+                        </div><br>
+                        <div id="outsideRideDetailsContinueButton">
+                            <span id="outsideContinueButton">
+                                <a type="submit" name="submit" id="continueButtonForRideDetails" value="Continue" href="newRideConfirmation.html"/><b>Continue</b></a>
+                            </span>
+                        </div><br />
+                    </div>                        
+                </fieldset>
+            </div>
+        </div>
+    </span>
 
       <div class="bottom-of-page">
           <div id="first-half-of-bottom-of-page">

@@ -3,11 +3,6 @@
   <head>
     <title>Create New Post</title>
     <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-        body {
-            background-color: lightgray;
-        }
-    </style>
   </head>
   <body>
 
@@ -44,27 +39,32 @@
           </div><!--ending of second-bar-->
       </div>
 
-      <h1 id="new-post-header">Type of Post</h1><br><br>
+      <h1 id="new-post-header">Create New Post</h1>
       <form name="selectType" id="mainNewPost">
-          <div name="typeOptions" id="typeOptions">
-              <div id="rowOfOptions">
-                  <a id="rideOption" href="newRideFromAndTo.html">Ride</a>
-                  <a id="eachOption" href="new-covid-related.html">Covid Related</a>
-              </div><br><br><br><br>
-              <div id="rowOfOptions">
-                  <a id="eachOption" href="new-for-sale.html">For Sale or Giving Away</a>
-                  <a id="eachOption" href="new-in-search-of.html">In Search Of</a>
-              </div><br><br><br><br>
-              <div id="rowOfOptions">
-                  <a id="serviceOption" href="new-service.html">Service</a>
-                  <a id="eachOption" href="new-shuls-related.html">Shul Related</a>
-              </div><br><br><br><br>
-              <div id="rowOfOptions">
-                  <a id="eachOption" href="new-upcoming-teaneck-event.html">New Teaneck Event</a>
-              </div>
-          </div>
+          <select name="typeOptions" id="typeOptions">
+              <option id="eachOption" value="nothing" selected="selected">Select Type Of Post</option>
+              <option id="eachOption" value="new-ride-to-teaneck.html">Ride To Teaneck</option>
+              <option id="eachOption" value="new-ride-from-teaneck.html">Ride From Teaneck</option>
+              <option id="eachOption" value="new-covid-related.html">Covid Related</option>
+              <option id="eachOption" value="new-for-sale.html">For Sale or Giving Away</option>
+              <option id="eachOption" value="new-giving-away.html">Giving Away</option>
+              <option id="eachOption" value="new-in-search-of.html">In Search Of</option>
+              <option id="eachOption" value="new-service.html">Service</option>
+              <option id="eachOption" value="new-minyanim.html">Minyanim</option>
+              <option id="eachOption" value="new-shuls-related.html">Shul Related</option>
+              <option id="eachOption" value="new-upcoming-teaneck-event.html">Upcoming Teaneck Event</option>
+          </select>
       </form>
 
+      <script type="text/javascript">
+          var urlMenu = document.getElementById('typeOptions');
+          urlMenu.onchange = function() {
+              var userOption = this.options[this.selectedIndex];
+              if (userOption.value != "nothing") {
+                  window.open(userOption.value, "Post Type", "");
+              }
+          }
+      </script>
 
 
       <div class="bottom-of-page">

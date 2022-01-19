@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Create New Ride From Teaneck Post</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <head>
+      <title>Create New Ride To Teaneck Post</title>
+      <link rel="stylesheet" href="style.css">
+      <style type="text/css">
+          body {
+              background-color: lightgray;
+          }
+      </style>
+    </head>
+    <body>
 
 
 
@@ -35,21 +40,29 @@
       <a id="each-sec-bar" href="teaneckShuls.html">Upcoming Teaneck Events</a>      
     </div><!--ending of second-bar-->
 
-
-    <h1 id="new-post-header">Create New Ride From Teaneck Post</h1>
-    <form name="selectType" id="mainNewPost">
-        <select name="typeOptions" id="typeOptions">
-            <option id="eachOption" value="nothing" selected="selected">Select The General Area You Are Heading To</option>
-            <option id="eachOption" value="ride-details.html">To Washington Heights</option>
-            <option id="eachOption" value="ride-details.html">To the Five Towns</option>
-            <option id="eachOption" value="ride-details.html">To Newark Airport</option>
-            <option id="eachOption" value="ride-details.html">To JFK</option>
-            <option id="eachOption" value="ride-details.html">To the Lower East Side</option>
-            <option id="eachOption" value="ride-details.html">To Queens</option>
-            <option id="eachOption" value="ride-details.html">To Fairlawn</option>
-            <option id="eachOption" value="ride-details.html">Other</option>
-        </select>
-    </form>
+    <span class=outsideWholeRidesPage>
+        <div class="wholeNewRidePage">
+            <h1 id="newRideHeader">New Ride From Teaneck<br>Save Money, Gain Time,<br>and Help Others!</h1><br><br>
+            <form name="selectType" id="mainNewPost">
+                  <div name="typeOptions" id="typeOptions">
+                      <div id="rowOfOptions">
+                          <a id="eachOption" href="ride-details.html">To Washington Heights</a>
+                          <a id="eachOption" href="ride-details.html">To the Five Towns</a>
+                          <a id="eachOption" href="ride-details.html">To Newark Airport</a>
+                      </div><br><br><br><br>
+                      <div id="rowOfOptions">
+                          <a id="eachOption" href="ride-details.html">To JFK</a>
+                          <a id="eachOption" href="ride-details.html">To the Lower East Side</a>
+                          <a id="eachOption" href="ride-details.html">To Queens</a>
+                      </div><br><br><br><br>
+                      <div id="rowOfOptions">
+                          <a id="eachOption" href="ride-details.html">To Fairlawn</a>
+                          <a id="eachOption" href="ride-details.html">To Elsewhere</a>
+                      </div>
+                  </div>
+            </form>
+        </div>
+    </span>
     <script type="text/javascript">
         var urlMenu = document.getElementById('typeOptions');
         urlMenu.onchange = function() {
