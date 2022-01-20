@@ -3,82 +3,69 @@
   <head>
     <title>Rides - Save Money, Gain Time, and Help Others</title>
     <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-        body {
-                background-color: lightgray;        
-        }
-    </style>  
   </head>
   <body>
     
+        <div class=entire-top-bar>
+            <div class="top-bar">
+                <a id="teaneckLogo" href="teaneckShuls.html"><img src="teaneckLogo.jpg" class="normal" alt="Teaneck Logo"></a>
+                <a id="each-first-bar" href="create-new-post.html">Create New Post</a> <!--Figure out what to do with this-->
+                <a id="search-bar">
+                  <a id="the-all-button"> Search </a>
+                  <span class="mainSearchBar">
+                      <input id="actual-bar" type="searchbox" name="text" placeholder="Search..."/>
+                  </span>
+                  <input id="search-button" type="submit" value="Search"/>
+                </a>
+                <a class="right-side-top-bar">
+                  <a id="each-first-bar" href="login.html">Hello, Sign In</a>    
+                  <a id="each-first-bar" href="jewishLink.html">Jewish Link</a>    
+                  <a id="each-first-bar" href="aboutUs.html">About Us</a> <!--Formating has a ways to go-->
+                </a>
+            </div><!--ending of top-bar-->
+            
+            <div class="second-bar">
+              <a id="each-sec-bar" href="teaneckShuls.html">Recent Posts</a>  
+              <a id="each-sec-bar" href="toOrFrom.html">Rides</a>
+              <a id="each-sec-bar" href="products.html">Food</a>    
+              <a id="each-sec-bar" href="products.html">Products</a>    
+              <a id="each-sec-bar" href="services.html">Services</a>    
+              <a id="each-sec-bar" href="covid-related.html">Covid Related</a>
+              <a id="each-sec-bar" href="for-sale.html">Giving Away</a>    
+              <a id="each-sec-bar" href="in-search-of.html">In Search of</a>    
+              <a id="each-sec-bar" href="minyanim.html">Job Offers</a>      
+              <a id="each-sec-bar" href="chessed.html">Chessed Oppurtunities</a>      
+              <a id="each-sec-bar" href="minyanim.html">Minyanim</a>      
+              <a id="each-sec-bar" href="shuls-related.html">Anouncements</a>    
+              <a id="each-sec-bar" href="upcoming-teaneck-events.html">Events</a>      
+            </div><!--ending of second-bar-->
+        </div>
 
 
-  <div class=entire-top-bar>
-    <div class="top-bar">
-      <a id="teaneckLogo" href="teaneckShuls.html"><img src="teaneckLogo.jpg" class="normal" alt="Teaneck Logo"></a>
-      <a id="each-first-bar" href="create-new-post.html">Create New Post</a> <!--Figure out what to do with this-->
-      <a id="search-bar">
-        <a id="the-all-button"> Search </a>
-        <span class="mainSearchBar">
-            <input id="actual-bar" type="searchbox" name="text" placeholder="Search..."/>
-        </span>
-        <input id="search-button" type="submit" value="Search"/>
-      </a>
-      <a class="right-side-top-bar">
-        <a id="each-first-bar" href="login.html">Hello, Sign In</a>    
-        <a id="each-first-bar" href="jewishLink.html">Jewish Link</a>    
-        <a id="each-first-bar" href="aboutUs.html">About Us</a> <!--Formating has a ways to go-->
-      </a>
-    </div><!--ending of top-bar-->
-    
-    <div class="second-bar">
-      <a id="each-sec-bar" href="teaneckShuls.html">Most Recent</a>  
-      <a id="each-sec-bar" href="toOrFrom.html">Rides</a>
-      <a id="each-sec-bar" href="covid-related.html">Covid Related</a>
-      <a id="each-sec-bar" href="for-sale.html">For Sale</a>    
-      <a id="each-sec-bar" href="in-search-of.html">In Search of</a>    
-      <a id="each-sec-bar" href="services.html">Services</a>    
-      <a id="each-sec-bar" href="minyanim.html">Minyanim</a>      
-      <a id="each-sec-bar" href="shuls-related.html">Shuls Related</a>    
-      <a id="each-sec-bar" href="upcoming-teaneck-events.html">Upcoming Teaneck Events</a>      
-    </div><!--ending of second-bar-->
-  </div>
-
-    <h1 id="new-post-header">Save Money, Gain Time, and Help Others</h1>
-            <div class=outsideWholeRidesPage>
-                <div class="wholeRidesPage">
-                    <div id="addresses">
-                        <div id="eachAddressSection">                          
-                            <Label id="eachAddress">Address I am heading to:*<br />
-                              <input id="detailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
-                            </Label>
-                        </div>
-                        <div id="eachAddressSection">
-                            <Label id="eachAddress">Address I am leaving from:*<br />
-                              <input id="secondDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
-                            </Label>
-                        </div>
-                        <div id="outsideRideDetailsContinueButton">
-                            <span id="outsideContinueButton">
-                                <button id="continueButtonForRideDetails" onClick="window.open('rideDetailsPartOne.html', '_self');"/>Continue</button>
-                            </span>
-                        </div><br />
-                        OR<br> 
-                        <div id="outsideRideDetailsContinueButton">
-                            <span id="outsideContinueButton">
-                                <button id="continueButtonForRideDetails" onClick="window.open('rideDetailsPartOne.html', '_self');"/>Check Out Recent Ride Posts</button>
-                            </span>
-                        </div><br />               
-                    </div><br>
-                </div>        
+    <h1 id="new-post-header">Save Money, Gain Time,<br> Help Others</span></h1>
+    <div class=outsideWholeRidesPage>
+        <div class="wholeRidesPage">
+            <div id="addresses">
+                <div id="eachAddressSection">                          
+                    <Label id="eachAddress">Address I am heading to:*<br />
+                      <input id="detailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
+                    </Label>
+                </div>
+                <div id="eachAddressSection">
+                    <Label id="eachAddress">Address I am leaving from:*<br />
+                      <input id="secondDetailBox" type="text" name="text" size="25" maxlength="30" required="required" placeholder="123 mountain avenue"/></input>
+                    </Label>
+                </div>
+                <div id="outsideRideDetailsContinueButton">
+                    <button id="continueButtonForRideDetails" onClick="window.open('rideDetailsPartOne.html', '_self');"/>Continue</button>
+                </div>
+                <div id="Or">OR</div> 
+                <div id="outsideRideDetailsContinueButton">
+                    <button id="otherButton" onClick="window.open('ridePosts.html', '_self');"/>View Rides</button>
+                </div><br />    
             </div>
-        <div class="toOrFrom">
-            <div id="insideToOrFrom">
+        </div>        
     </div>
-
-
-
-
 
     <div class="bottom-of-page">
       <div class="back-to-top">
@@ -91,6 +78,23 @@
         <sub>&copy; 2022, GS Productions</sub>
       </div>
     </div>
+
+    <script>
+        // Get the input field
+        var input = document.getElementById("secondDetailBox");
+
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+          // Number 13 is the "Enter" key on the keyboard
+          if (event.keyCode === 13) {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("continueButtonForRideDetails").click();
+          }
+        });        
+    </script>
+
 
   </body>
 </html>

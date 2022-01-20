@@ -37,100 +37,84 @@ img.classic {
     height: 28%;
 }
 
-.top-bar {;
-  width: 100%;
-  font-size: 15px;
-  background-color: #131A22;
-  color: white !important;
-  font-family: arial, sans-serif;
-  box-sizing: border-box;
-  text-align: ;
-  padding: 10px 0;
-  padding-bottom: 10px;
-  padding-left: 8px;
-  margin: auto;
-}
-.top-bar a {
-  color: white;
-  text-decoration: none;}
-.top-bar a:hover {
-  color: #FEBD69;
-  text-decoration: none;}
-.right-side-top-bar {
-  position:absolute;
-  TOP:100px;    
-  }
-#teaneckLogo {
-  border: 1px solid #cccccc;
-  border-color: #131A22;
-  padding-left: 0.75%;
-  padding-right: 0.75%;
-  padding-top: 90px;
-  padding-bottom: 5px;
-}
-#teaneckLogo:hover {
-  border: 1px solid #cccccc;
-  border-color:lightblue;
-  padding-left: 0.75%;
-  padding-right: 0.75%;
-  padding-top: 90px;
-  padding-bottom: 5px;
-}
-#each-first-bar {
-  border: 1px solid #cccccc;
-  border-color: #131A22;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-#each-first-bar:hover {
-  color: lightblue;  
-  border: 1px solid #cccccc;
-  border-color: lightblue;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+/*Start of Header*/
+    .top-bar {;
+      width: 100%;
+      font-size: 110%;
+      background-color: #232F3E;
+      color: white !important;
+      font-family: arial, sans-serif;
+      box-sizing: border-box;
+      text-align: ;
+      padding: 10px 0;
+      padding-bottom: 10px;
+      padding-left: 8px;
+      margin: auto;
 
-.mainSearchBar input {
-    width: 55%;
-    height: 15%;
-}
+    }
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+    }
+    .top-bar a:hover {
+      color: #FEBD69;
+      text-decoration: none;}
+    .right-side-top-bar {
+    }
+    #teaneckLogo {
+      border: 1px solid #232F3E;
+      padding-left: 0.75%;
+      padding-right: 0.75%;
+      padding-top: 5%;
+      padding-bottom: .5%;
+    }
+    #teaneckLogo:hover {
+      color: skyblue;  
+      border-color: skyblue;
+    }
+    #each-first-bar {
+      border: 1px solid #232F3E;
+      padding-left: 0.5%;
+      padding-right: 0.5%;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+    }
+    #each-first-bar:hover {
+      color: skyblue;  
+      border-color: skyblue;
+    }
+
+    .mainSearchBar input {
+        width: 30%;
+        height: 15%;
+    }
     #search-bar {  
       border-style: ;
-      border-color: ;
-      padding-bottom: 30px;
-      padding-left: 1.5%;
-      padding-right: ;
-    }
-    #the-all-button {
-      color: white;
+      padding-bottom: 2.5%;
       padding-left: 0.5%;
-      padding-top: 8px;
-      padding-bottom: 10px;
-      background-color: gray;
-      border: 1px solid #cccccc;
-      border-color: gray;
     }
     #actual-bar {
+        padding-top:  10px;
+        padding-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 25px;
 
-      padding-top:  10px;
-      padding-bottom: 10px;
-      border: 1px solid #cccccc;
     }
     #search-button {
       color: black;
       border-color: lightblue;
       background-color:lightblue;
-      padding-bottom: 9px;
-      padding-top: 9px;
+      padding-bottom: 0.51%;
+      padding-top: 0.51%;
       padding-right: 0.5%;
+      padding-left: 0.5%;
     }
+/*End of Header*/
 
+
+/*Start of Sub-Header*/
 .second-bar {
-  background-color:#232F3E;
+  background-color: #37475A;
   color: white !important;
   box-sizing: border-box;
   padding-top: 10px;
@@ -144,28 +128,26 @@ img.classic {
   box-sizing: border-box;
   text-decoration: none;}
 .second-bar a:hover {
-  font-size: 16px;
-  color: lightblue !important;
+  color: skyblue; !important;
   font-family: arial, sans-serif;
   box-sizing: border-box;
   text-decoration: none;}
 #each-sec-bar {
-  border: 1px solid #cccccc;
-  border-color: #232F3E;
+  border: 1px solid #37475A;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 1.25%;
   padding-right: 1.25%;
 }
 #each-sec-bar:hover {
-  color: lightblue;  
-  border: 1px solid #cccccc;
-  border-color: lightblue;
+  color: skyblue !important;  
+  border: 1px solid skyblue;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 1.25%;
   padding-right: 1.25%;
 }
+/*End of Sub-Header*/
 
 .third-bar {
   background-color: #37475A;
@@ -183,28 +165,66 @@ img.classic {
   text-decoration: none;}
 .third-bar a:hover {
   font-size: 18px;
-  color: lightblue !important;
+  color: skyblue; !important;
   font-family: arial, sans-serif;
   box-sizing: border-box;
   text-decoration: none;}
 #each-third-bar {
-  border: 1px solid #cccccc;
-  border-color: #37475A;
+  border: 1px solid #37475A;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 #each-third-bar:hover {
-  color: lightblue;  
-  border: 1px solid #cccccc;
-  border-color: lightblue;
+  color: skyblue !important;  
+  border: 1px solid skyblue;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
+.fourth-bar {
+  background-color: grey;
+  color: white !important;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1.5%;    
+}
+.fourth-bar a {
+  font-size: 18px;
+  color: white !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.fourth-bar a:hover {
+  font-size: 18px;
+  color: skyblue !important;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#eachFourth {
+  border: 1px solid grey;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#eachFourth:hover {
+  color: skyblue !important;  
+  border: 1px solid skyblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#eachFourth a:hover {
+  color: skyblue !important;  
+  border: 1px solid skyblue !important;
+}
 
 .bottom-of-page {
     text-align: center;
@@ -241,8 +261,8 @@ img.classic {
     font-size: 250%;
     border-top: 2px solid black;    
     border-bottom: 2px solid black;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #slogan {
     color: black; 
@@ -252,9 +272,9 @@ img.classic {
     color: rebeccapurple;
     border-top: 2px solid black;    
     border-bottom: 2px solid black;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: 250%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 300%;
     text-align: center;     
 }
 .row-of-posts {
@@ -279,7 +299,7 @@ img.classic {
         color: black;
     }
     #for-sale-post:hover, #ride-post:hover {
-        background-color: mediumpurple;
+        background-color: silver;
     }
     #requestRideButtonSection {
         padding-top: 2.5%;
@@ -333,7 +353,7 @@ img.classic {
     } 
     .wholeRidesPage {
         margin-top: 1.0%;
-        margin-bottom: 5.0%;
+        margin-bottom: 2.5%;
         padding-right: 20%;
         padding-left: 20%;
     }
@@ -423,9 +443,12 @@ img.classic {
         padding-left: 20%;
         padding-right: 20%;
         border: 1px solid black;  
-        background-color: lightgreen;
+        background-color: white;
+        border-radius: 25px;
       }
-
+      #continue-button:hover { 
+        background-color: lightgreen;
+        }
       #new-to-teaneck-shuls {
         text-align: center;
       }
@@ -435,13 +458,17 @@ img.classic {
         padding-left: 2.5%;
         padding-right: 2.5%;
         border: 1px solid black;  
-        background-color: lightgreen;
+        background-color: white;
         text-align: center;
+        border-radius: 25px;
       }
           #create-account-button a:link, visited {
               color: black;
               text-decoration: none;}              
           }        
+          #create-account-button:hover {
+            background-color: lightgreen !important;
+          }
 /*End of login.html*/
 
 
@@ -702,7 +729,7 @@ img.classic {
     }
     #eachOption {
         border: 1px solid black;
-        background-color: mediumpurple;   
+        background-color: white;   
         border-radius: 25px;     
         padding: 0.5%;
         margin-right: 3.0%;
@@ -738,11 +765,11 @@ img.classic {
     #addresses {
         border: 5px solid rebeccapurple;
         maegin-top: 7.5%;
-        margin-bottom: 7.5%;
+        margin-bottom: 5.0%;
         margin-left: 15%;
         margin-right: 15%;
         padding-top: 2.5%;
-        padding-bottom: 2.5%;
+        padding-bottom:;
     }
     #eachAddressSection {
         margin-left: 5.0%;
@@ -797,8 +824,9 @@ img.classic {
     #continueButtonForRideDetails {
         border: 1px solid black;
         background-color: mediumpurple;
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-bottom: 2.5%;
         padding-top: 1.0%;
         padding-bottom: 1.0%;
         padding-left: 5.0%;
@@ -826,14 +854,34 @@ img.classic {
         margin-right: 5.0%;
     }
 
-#outsideRideDetailsContinueButton, #outsideCreateAccountContinueButton{
-    margin-top: 2.0%;
-    margin-bottom: 1.0%;
-}
-#rideDetailsContinueButton {
-    font-size: 200%;
-}
-
+    #outsideRideDetailsContinueButton, #outsideCreateAccountContinueButton{
+        margin-top: 2.0%;
+        margin-bottom: 2.0%;
+    }
+    #rideDetailsContinueButton {
+        font-size: 200%;
+    }
+    #otherButton{
+        border: 1px solid black;
+        background-color: mediumpurple;
+        margin-left: 33%;
+        margin-right: 33%;
+        padding-top: 1.0%;
+        padding-bottom: 1.0%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        color: black;  
+        border-radius: 25px;  
+        font-size: 250%;   
+    }
+    #otherButton:hover {
+        background-color: lightgreen;
+    }    
+    #Or {
+        font-size: 300%;
+        margin-left: 43.5%;
+        margin-right: 43.5%;
+    }
 
 #requestRideButton, #message-button {
     padding-top: 1.0%;
