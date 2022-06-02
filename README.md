@@ -1,1 +1,1 @@
-# SummerYUCS
+# Summer YU CS
